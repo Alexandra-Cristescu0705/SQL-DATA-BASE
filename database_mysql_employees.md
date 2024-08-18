@@ -302,6 +302,13 @@ WHERE Employee_Code = '06';
   <li>DQL (Data Query Language)</li>
 
 ## After the testing process, I deleted the data that was no longer relevant in order to preserve the database clean: 
+
+Deleting specific employees from Angajati table where payment is <5000:
+
+```
+DELETE FROM Angajati
+WHERE Payment<5000:;
+```
 Deleting specific rows from the Angajati table:
 ```
 DELETE FROM Angajati
